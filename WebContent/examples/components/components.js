@@ -6,7 +6,6 @@ define(function(require, exports, module) {
 	require('./resources/carousel.css');
 	require('./resources/graph-radio-group.css');
 	require('./resources/project-content-detail.css');
-	require('./resources/portal.css');
 	var utils = require('utils');
 	var DateFormat = require('date-format');
 	var Base = require('component');
