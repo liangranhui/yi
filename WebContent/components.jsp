@@ -128,7 +128,8 @@
           <li>
             <a href="#portal">Portal</a>
             <ul class="nav">
-              <li><a href="#portal-example">示例</a></li>
+              <li><a href="#portal_examples">示例</a></li>
+              <li><a href="#portal_usage">用法</a></li>
             </ul>
           </li>
         </ul>
@@ -4191,9 +4192,57 @@ form.submit(option);
 
         <h2 id="grid-example">案例</h2>
         <p>TODO</p>
-        <h2 id="portal-example">案例</h2>
-        <p>TODO</p>
       </div>
+      <div class="bs-docs-section">
+	        <div class="page-header">
+	          <h1 id="portal">Portal <small>Portal</small></h1>
+	        </div>
+	
+	        <h2 id="portal_examples">示例</h2>
+	        
+	        <h3>示例</h3>
+	        <div class="bs-example">
+		      <div id="portal_example"></div>
+		    </div><!-- /example -->
+			<div class="highlight">
+				<pre>// html
+<br>
+&lt;div id="portal_example"&gt;
+<br>
+<br>
+// javascript
+<br>
+var portal = new Portal({
+<br>
+&nbsp;&nbsp;renderTo : 'portal_example',
+<br>
+&nbsp;&nbsp;portlets : [{
+&nbsp;&nbsp;&nbsp;&nbsp;title : '代办事宜',
+&nbsp;&nbsp;&nbsp;&nbsp;content : '代办事宜'
+&nbsp;&nbsp;}, {
+&nbsp;&nbsp;&nbsp;&nbsp;title : '公告',
+&nbsp;&nbsp;&nbsp;&nbsp;content : '公告'
+&nbsp;&nbsp;}, {
+&nbsp;&nbsp;&nbsp;&nbsp;title : '快速创建',
+&nbsp;&nbsp;&nbsp;&nbsp;content : '快速创建'
+&nbsp;&nbsp;}, {
+&nbsp;&nbsp;&nbsp;&nbsp;title : '知识',
+&nbsp;&nbsp;&nbsp;&nbsp;content : '知识'
+&nbsp;&nbsp;}, {
+&nbsp;&nbsp;&nbsp;&nbsp;title : '值班计划',
+&nbsp;&nbsp;&nbsp;&nbsp;content : '值班计划'
+&nbsp;&nbsp;}, {
+&nbsp;&nbsp;&nbsp;&nbsp;title : '任务计划',
+&nbsp;&nbsp;&nbsp;&nbsp;content : '任务计划'
+&nbsp;&nbsp;}, {
+&nbsp;&nbsp;&nbsp;&nbsp;title : '消息',
+&nbsp;&nbsp;&nbsp;&nbsp;content : '消息'
+&nbsp;&nbsp;}]
+<br>
+});
+				</pre>
+			</div>
+</div>
     </div>
   </div>
 </div>
