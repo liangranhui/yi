@@ -125,6 +125,12 @@
               <li><a href="#grid-example">案例</a></li>
             </ul>
           </li>
+          <li>
+            <a href="#portal">Portal</a>
+            <ul class="nav">
+              <li><a href="#portal-example">示例</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
@@ -4184,6 +4190,8 @@ form.submit(option);
         <p class="lead">TODO</p>
 
         <h2 id="grid-example">案例</h2>
+        <p>TODO</p>
+        <h2 id="portal-example">案例</h2>
         <p>TODO</p>
       </div>
     </div>
