@@ -6,6 +6,7 @@ define(function(require, exports, module) {
 	require('./resources/carousel.css');
 	require('./resources/graph-radio-group.css');
 	require('./resources/project-content-detail.css');
+	require('./resources/portal.css');
 	var utils = require('utils');
 	var DateFormat = require('date-format');
 	var Base = require('component');
@@ -20,6 +21,7 @@ define(function(require, exports, module) {
 	var ModalWindow = require('modal-window');
 	var Carousel = require('carousel');
 	var Form = require('form');
+	var Portal = require('portal');
 
 	// gallery_customization_example
 	var PROJECT_STATUS = {
@@ -697,6 +699,31 @@ define(function(require, exports, module) {
 					}
 				}
 			});
+			var portlet = new Portal({
+					renderTo : 'portal_example',
+					portlets : [{
+						title : '代办事宜',
+						content : '代办事宜'
+					}, {
+						title : '公告',
+						content : '公告'
+					}, {
+						title : '快速创建',
+						content : '快速创建'
+					}, {
+						title : '知识',
+						content : '知识'
+					}, {
+						title : '值班计划',
+						content : '值班计划'
+					}, {
+						title : '任务计划',
+						content : '任务计划'
+					}, {
+						title : '消息',
+						content : '消息'
+					}]
+				});
 		}
 
 		Components.run = function() {
